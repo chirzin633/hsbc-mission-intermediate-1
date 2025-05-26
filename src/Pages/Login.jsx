@@ -1,10 +1,14 @@
+import { HeaderForm } from "../components/Elements/Header/Header";
 import FormLogin from "../components/Fragments/FormLogin";
 import AuthLayouts from "../components/Layouts/AuthLayouts";
 
-export function LoginPage() {
+export default function LoginPage() {
   return (
-    <AuthLayouts>
-      <FormLogin />
-    </AuthLayouts>
+    <>
+      <HeaderForm />
+      <AuthLayouts>
+        <FormLogin />
+      </AuthLayouts>
+    </>
   );
 }
