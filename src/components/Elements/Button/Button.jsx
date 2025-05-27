@@ -14,9 +14,9 @@ export default function FooterForm() {
 }
 
 export function Button(props) {
-  const { textColor, bgColor, labelText } = props;
+  const { textColor, bgColor, labelText, classname } = props;
   return (
-    <button type="submit" className={`py-2 ${bgColor} ${textColor} rounded-xl font-semibold`}>
+    <button type="submit" className={`py-2 ${bgColor} ${textColor} rounded-xl cursor-pointer font-semibold ${classname}`}>
       {labelText}
     </button>
   );
