@@ -1,19 +1,19 @@
 export default function Footer() {
   return (
-    <footer class="bg-white mt-5 border-t-2 border-t-gray-200">
-      <div class="container p-5 mx-auto xl:px-40">
-        <div class="sm:flex sm:justify-center sm:gap-28">
-          <div class="w-full sm:w-1/2">
+    <footer className="bg-white mt-5 border-t-2 border-t-gray-200">
+      <div className="container p-5 mx-auto xl:px-40">
+        <div className="sm:flex sm:justify-center sm:gap-28">
+          <div className="w-full sm:w-1/2">
             <img src="./assets/img/Frame 3.svg" alt="logo videbelajar" />
-            <h1 class="font-bold my-1">Gali Potensi Anda Melalui Pembelajaran Video di Hariesok.id</h1>
-            <p class="my-1">Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
+            <h1 className="font-bold my-1">Gali Potensi Anda Melalui Pembelajaran Video di Hariesok.id</h1>
+            <p className="my-1">Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
             <p>+62-877-7123-1234</p>
           </div>
 
-          <div class="w-full my-2 sm:w-1/2 sm:flex sm:gap-5">
-            <div class="flex items-center justify-between gap-3 sm:flex-col sm:items-start">
-              <h3 class="font-bold">Kategori</h3>
-              <ul class="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
+          <div className="w-full my-2 sm:w-1/2 sm:flex sm:gap-5">
+            <div className="flex items-center justify-between gap-3 sm:flex-col sm:items-start">
+              <h3 className="font-bold">Kategori</h3>
+              <ul className="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
                 <li>
                   <a href="#">Digital & Teknologi</a>
                 </li>
@@ -31,21 +31,21 @@ export default function Footer() {
                 </li>
               </ul>
               <svg
-                class="sm:hidden"
+                className="sm:hidden"
                 fill="#000000"
                 height="10px"
                 width="10px"
                 version="1.1"
                 id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 330.00 330.00"
-                xml:space="preserve"
+                xmlSpace="preserve"
                 stroke="#000000"
-                stroke-width="33"
+                strokeWidth="33"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
                     id="XMLID_222_"
@@ -55,9 +55,9 @@ export default function Footer() {
               </svg>
             </div>
 
-            <div class="flex items-center justify-between gap-3 sm:flex-col sm:items-start">
-              <h3 class="font-bold">Perusahaan</h3>
-              <ul class="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
+            <div className="flex items-center justify-between gap-3 sm:flex-col sm:items-start">
+              <h3 className="font-bold">Perusahaan</h3>
+              <ul className="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
                 <li>
                   <a href="#">Tentang Kami</a>
                 </li>
@@ -75,21 +75,21 @@ export default function Footer() {
                 </li>
               </ul>
               <svg
-                class="sm:hidden"
+                className="sm:hidden"
                 fill="#000000"
                 height="10px"
                 width="10px"
                 version="1.1"
                 id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 330.00 330.00"
-                xml:space="preserve"
+                xmlSpace="preserve"
                 stroke="#000000"
-                stroke-width="33"
+                strokeWidth="33"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
                     id="XMLID_222_"
@@ -99,9 +99,9 @@ export default function Footer() {
               </svg>
             </div>
 
-            <div class="flex items-center justify-between gap-3 sm:flex-col sm:items-start sm:justify-normal">
-              <h3 class="font-bold">Komunitas</h3>
-              <ul class="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
+            <div className="flex items-center justify-between gap-3 sm:flex-col sm:items-start sm:justify-normal">
+              <h3 className="font-bold">Komunitas</h3>
+              <ul className="hidden text-slate-500 sm:flex sm:flex-col sm:gap-3">
                 <li>
                   <a href="#">Tips Sukses</a>
                 </li>
@@ -110,21 +110,21 @@ export default function Footer() {
                 </li>
               </ul>
               <svg
-                class="sm:hidden"
+                className="sm:hidden"
                 fill="#000000"
                 height="10px"
                 width="10px"
                 version="1.1"
                 id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 330.00 330.00"
-                xml:space="preserve"
+                xmlSpace="preserve"
                 stroke="#000000"
-                stroke-width="33"
+                strokeWidth="33"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
                     id="XMLID_222_"
@@ -136,27 +136,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <hr class="border-t-2 border-t-gray-200" />
+        <hr className="border-t-2 border-t-gray-200" />
 
-        <div class="w-full pt-3 sm:flex sm:justify-between">
-          <div class="flex gap-2 sm:order-2">
-            <a href="#" class="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
-              <img src="./assets/img/linkedin.svg" alt="logo linkedin" />
+        <div className="w-full pt-3 sm:flex sm:justify-between">
+          <div className="flex gap-2 sm:order-2">
+            <a href="#" className="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
+              <img src="../public/img/linkedin.svg" alt="logo linkedin" />
             </a>
 
-            <a href="#" class="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
-              <img src="./assets/img/fb.svg" alt="logo facebook" />
+            <a href="#" className="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
+              <img src="../public/img/fb.svg" alt="logo facebook" />
             </a>
 
-            <a href="#" class="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
-              <img src="./assets/img/ig.svg" alt="logo instagram" />
+            <a href="#" className="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
+              <img src="../public/img/ig.svg" alt="logo instagram" />
             </a>
 
-            <a href="#" class="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
-              <img src="./assets/img/twitter.svg" alt="logo twitter" />
+            <a href="#" className="w-9 h-9 rounded-full border-2 border-gray-400 flex justify-center items-center">
+              <img src="../public/img/twitter.svg" alt="logo twitter" />
             </a>
           </div>
-          <p class="font-semibold text-slate-500 pt-2 sm:order-1">@2025 Gerobak Sayur All Right Reserved.</p>
+          <p className="font-semibold text-slate-500 pt-2 sm:order-1">@2025 Gerobak Sayur All Right Reserved.</p>
         </div>
       </div>
     </footer>
